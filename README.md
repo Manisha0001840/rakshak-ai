@@ -1,6 +1,6 @@
 # Rakshak AI
 
-## AI-Powered Digital Public Safety Platform for India
+# # AI-Powered Digital Public Safety Platform for India
 
 Rakshak AI is an AI-powered digital public safety platform designed to help Indian citizens identify phone scams, digital arrest fraud, phishing messages, fake government documents, investment scams, courier fraud, and other forms of cybercrime.
 
@@ -11,9 +11,9 @@ The platform has two main interfaces:
 
 ---
 
-## Features
+# # Features
 
-### Citizen Portal
+## # Citizen Portal
 
 Citizens can:
 
@@ -43,7 +43,7 @@ Supported scam categories include:
 - Impersonation
 - No scam detected
 
-### Command Center
+## # Command Center
 
 The law enforcement dashboard provides:
 
@@ -57,7 +57,7 @@ The law enforcement dashboard provides:
 - Geographic complaint heatmap across India
 - Incident-level evidence and threat information
 
-### AI Analysis
+## # AI Analysis
 
 Rakshak AI uses Google Gemini for:
 
@@ -72,7 +72,7 @@ The final threat score is calculated using a deterministic scoring engine instea
 
 ---
 
-## Threat Scoring
+# # Threat Scoring
 
 Rakshak AI calculates a score between 0 and 100.
 
@@ -86,7 +86,7 @@ Category Score
 Copy the following into README.md in your project:
 # Rakshak AI
 
-## AI-Powered Digital Public Safety Platform for India
+# # AI-Powered Digital Public Safety Platform for India
 
 Rakshak AI is a digital public safety platform designed to help Indian citizens detect phone scams, digital arrest fraud, phishing messages, fake government documents, courier fraud, investment scams, loan fraud, job scams, sextortion, and other online threats.
 
@@ -99,9 +99,9 @@ The platform provides two connected experiences:
 
 ---
 
-## Key Features
+# # Key Features
 
-### Citizen Portal
+## # Citizen Portal
 
 Citizens can visit `/citizen` to:
 
@@ -118,7 +118,7 @@ Citizens can visit `/citizen` to:
 - Confirm or deny whether the content was a scam.
 - Get emergency guidance for high-risk incidents.
 
-### Command Center
+## # Command Center
 
 Law-enforcement users can visit `/command` to:
 
@@ -131,7 +131,7 @@ Law-enforcement users can visit `/command` to:
 - View incident clusters on an India geographic heatmap.
 - Inspect incident details and extracted intelligence.
 
-### AI Analysis
+## # AI Analysis
 
 Rakshak AI uses Google Gemini for multimodal analysis:
 
@@ -143,7 +143,7 @@ Rakshak AI uses Google Gemini for multimodal analysis:
 
 The current default Gemini model is configurable through the `GEMINI_MODEL` environment variable.
 
-### Deterministic Threat Scoring
+## # Deterministic Threat Scoring
 
 The final threat score is calculated by a deterministic scoring engine instead of relying only on the AI response.
 
