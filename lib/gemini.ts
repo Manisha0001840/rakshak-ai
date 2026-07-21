@@ -24,7 +24,9 @@ import type {
   VictimAdvisory,
 } from "./types";
 
-const MODEL_NAME = "gemini-2.5-flash";
+// Keep the model configurable so the app can follow Google's model availability
+// without requiring a code change. This default supports text, image, and audio.
+const MODEL_NAME = process.env.GEMINI_MODEL?.trim() || "gemini-3.5-flash";
 
 const generationConfig = {
   responseMimeType: "application/json",
@@ -337,4 +339,3 @@ export async function generateEvidenceSummary(
     recommendedActions: asStringArray(payload.recommended_actions),
   };
 }
-
