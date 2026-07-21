@@ -42,7 +42,7 @@ function normalizeSeverity(value: unknown): SignalSeverity {
 }
 
 function uniqueNonEmpty(values: string[]): string[] {
-  return [...new Set(values.map((value) => value.trim()).filter(Boolean))];
+  return Array.from(new Set(values.map((value) => value.trim()).filter(Boolean)));
 }
 
 export function getThreatLevel(score: number): ThreatLevel {
@@ -107,4 +107,3 @@ export function scoreFromParts(
     blocklistMatches,
   );
 }
-

@@ -31,7 +31,7 @@ function asOptionalNumber(value: unknown): number | undefined {
 }
 
 function mergeMatches(matches: BlocklistMatch[]): BlocklistMatch[] {
-  return [...new Map(matches.map((match) => [`${match.entryType}:${match.value}`, match])).values()];
+  return Array.from(new Map(matches.map((match) => [`${match.entryType}:${match.value}`, match])).values());
 }
 
 export async function POST(request: Request) {

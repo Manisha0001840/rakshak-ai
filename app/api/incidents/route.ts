@@ -153,7 +153,7 @@ export async function POST(request: Request) {
       ...findBlocklistMatches({ phone: analysis.scammerPhone, upi: analysis.scammerUpi }),
       ...findBlocklistMatchesInText(rawInput),
     ];
-    const uniqueMatches = [...new Map(matches.map((match) => [`${match.entryType}:${match.value}`, match])).values()];
+    const uniqueMatches = Array.from(new Map(matches.map((match) => [`${match.entryType}:${match.value}`, match])).values());
     const scored = scoreAnalysis(analysis, uniqueMatches);
     const incident = insertIncident(scored, {
       locale: optionalString(body.locale) ?? analysis.detectedLanguage,

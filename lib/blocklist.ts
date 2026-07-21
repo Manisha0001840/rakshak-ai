@@ -138,7 +138,7 @@ export function getBlocklistEntries(): BlocklistEntry[] {
     }
   }
 
-  return [...merged.values()].sort((a, b) => (b.reportedCount ?? 0) - (a.reportedCount ?? 0));
+  return Array.from(merged.values()).sort((a, b) => (b.reportedCount ?? 0) - (a.reportedCount ?? 0));
 }
 
 export function findBlocklistMatches(
@@ -167,14 +167,14 @@ export function findBlocklistMatches(
 }
 
 export function extractPotentialIdentifiers(text: string): { phones: string[]; upis: string[] } {
-  const phones = [...text.matchAll(/(?:\+?91[\s-]?)?[6-9]\d{9}\b/g)].map((match) => normalizePhone(match[0]));
-  const upis = [...text.matchAll(/\b[a-zA-Z0-9][a-zA-Z0-9._-]{1,80}@[a-zA-Z][a-zA-Z0-9._-]{1,40}\b/g)].map((match) =>
+  const phones = Array.from(text.matchAll(/(?:\+?91[\s-]?)?[6-9]\d{9}\b/g)).map((match) => normalizePhone(match[0]));
+  const upis = Array.from(text.matchAll(/\b[a-zA-Z0-9][a-zA-Z0-9._-]{1,80}@[a-zA-Z][a-zA-Z0-9._-]{1,40}\b/g)).map((match) =>
     normalizeUpi(match[0]),
   );
 
   return {
-    phones: [...new Set(phones)],
-    upis: [...new Set(upis)],
+    phones: Array.from(new Set(phones)),
+    upis: Array.from(new Set(upis)),
   };
 }
 
@@ -190,7 +190,7 @@ export function findBlocklistMatchesInText(text: string): BlocklistMatch[] {
     matches.push(...findBlocklistMatches({ upi }));
   }
 
-  return [...new Map(matches.map((match) => [`${match.entryType}:${match.value}`, match])).values()];
+  return Array.from(new Map(matches.map((match) => [`${match.entryType}:${match.value}`, match])).values());
 }
 
 export function seedBlocklistEntries(entries: BlocklistEntry[] = readSeedEntries()): number {
@@ -217,4 +217,3 @@ export function seedBlocklistEntries(entries: BlocklistEntry[] = readSeedEntries
   transaction();
   return entries.length;
 }
-
