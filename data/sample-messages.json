@@ -1,0 +1,83 @@
+[
+  {
+    "id": "sample-001",
+    "title": "Digital arrest threat",
+    "category": "digital_arrest",
+    "language": "en",
+    "expected_risk": "CRITICAL",
+    "message": "This is an officer from the cyber cell. Your Aadhaar is connected to a money-laundering case. Stay on video call and transfer the verification amount immediately, or a police team will arrest you today."
+  },
+  {
+    "id": "sample-002",
+    "title": "Courier customs demand",
+    "category": "courier_fraud",
+    "language": "en",
+    "expected_risk": "HIGH",
+    "message": "Your international parcel has been held by customs because it contains a restricted item. Pay the refundable clearance fee within 30 minutes to avoid a criminal case."
+  },
+  {
+    "id": "sample-003",
+    "title": "Guaranteed investment return",
+    "category": "investment_scam",
+    "language": "en",
+    "expected_risk": "HIGH",
+    "message": "You have been selected for our government-approved investment group. Send ₹10,000 today and receive a guaranteed 50% return this week. Only three seats remain."
+  },
+  {
+    "id": "sample-004",
+    "title": "Instant loan processing fee",
+    "category": "loan_fraud",
+    "language": "en",
+    "expected_risk": "HIGH",
+    "message": "Your instant personal loan of ₹5,00,000 is approved. Pay the small insurance and file-opening charge now to release the amount into your bank account."
+  },
+  {
+    "id": "sample-005",
+    "title": "Work-from-home registration fee",
+    "category": "job_scam",
+    "language": "en",
+    "expected_risk": "MEDIUM",
+    "message": "Congratulations! Your application for a railway work-from-home role has been shortlisted. Send your Aadhaar and pay the refundable registration fee to receive your joining letter."
+  },
+  {
+    "id": "sample-006",
+    "title": "Private video extortion",
+    "category": "sextortion",
+    "language": "en",
+    "expected_risk": "CRITICAL",
+    "message": "We recorded your private video. Transfer the settlement amount in the next 20 minutes or we will send it to your family and workplace contacts. Do not tell anyone."
+  },
+  {
+    "id": "sample-007",
+    "title": "Remote support takeover",
+    "category": "tech_support",
+    "language": "en",
+    "expected_risk": "HIGH",
+    "message": "Your computer is infected and your bank session is at risk. Install this remote support app and share the access code so our certified technician can secure your account."
+  },
+  {
+    "id": "sample-008",
+    "title": "KYC phishing link",
+    "category": "phishing",
+    "language": "en",
+    "expected_risk": "HIGH",
+    "message": "Your bank KYC expires tonight. Verify your account immediately using this link and enter your customer ID, card number, PIN, and OTP to prevent suspension."
+  },
+  {
+    "id": "sample-009",
+    "title": "Impersonated family emergency",
+    "category": "impersonation",
+    "language": "en",
+    "expected_risk": "MEDIUM",
+    "message": "Hi Papa, my phone is damaged and I am stuck at the hospital. Please send ₹18,000 to this UPI ID right now. I cannot take a call, so please keep it secret."
+  },
+  {
+    "id": "sample-010",
+    "title": "Legitimate bank OTP",
+    "category": "none",
+    "language": "en",
+    "expected_risk": "LOW",
+    "is_legitimate": true,
+    "message": "Your OTP for an online purchase at Example Bank is 482913. Do not share this OTP with anyone. If you did not initiate this transaction, call the number printed on your debit card."
+  }
+]

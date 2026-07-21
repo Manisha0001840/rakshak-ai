@@ -1,0 +1,212 @@
+[
+  {
+    "id": "phone-001",
+    "entry_type": "phone",
+    "value": "+91-9876500001",
+    "reported_count": 47,
+    "source": "I4C demo watchlist"
+  },
+  {
+    "id": "phone-002",
+    "entry_type": "phone",
+    "value": "+91-9876500002",
+    "reported_count": 39,
+    "source": "I4C demo watchlist"
+  },
+  {
+    "id": "phone-003",
+    "entry_type": "phone",
+    "value": "+91-9876500003",
+    "reported_count": 24,
+    "source": "citizen reports"
+  },
+  {
+    "id": "phone-004",
+    "entry_type": "phone",
+    "value": "+91-9876500004",
+    "reported_count": 21,
+    "source": "citizen reports"
+  },
+  {
+    "id": "phone-005",
+    "entry_type": "phone",
+    "value": "+91-9876500005",
+    "reported_count": 18,
+    "source": "citizen reports"
+  },
+  {
+    "id": "phone-006",
+    "entry_type": "phone",
+    "value": "+91-9876500006",
+    "reported_count": 16,
+    "source": "cyber police intake"
+  },
+  {
+    "id": "phone-007",
+    "entry_type": "phone",
+    "value": "+91-9876500007",
+    "reported_count": 14,
+    "source": "cyber police intake"
+  },
+  {
+    "id": "phone-008",
+    "entry_type": "phone",
+    "value": "+91-9876500008",
+    "reported_count": 13,
+    "source": "cyber police intake"
+  },
+  {
+    "id": "phone-009",
+    "entry_type": "phone",
+    "value": "+91-9876500009",
+    "reported_count": 12,
+    "source": "citizen reports"
+  },
+  {
+    "id": "phone-010",
+    "entry_type": "phone",
+    "value": "+91-9876500010",
+    "reported_count": 11,
+    "source": "citizen reports"
+  },
+  {
+    "id": "phone-011",
+    "entry_type": "phone",
+    "value": "+91-9876500011",
+    "reported_count": 10,
+    "source": "banking abuse desk"
+  },
+  {
+    "id": "phone-012",
+    "entry_type": "phone",
+    "value": "+91-9876500012",
+    "reported_count": 9,
+    "source": "utility fraud reports"
+  },
+  {
+    "id": "phone-013",
+    "entry_type": "phone",
+    "value": "+91-9876500013",
+    "reported_count": 15,
+    "source": "cyber police intake"
+  },
+  {
+    "id": "phone-014",
+    "entry_type": "phone",
+    "value": "+91-9876500014",
+    "reported_count": 8,
+    "source": "citizen reports"
+  },
+  {
+    "id": "phone-015",
+    "entry_type": "phone",
+    "value": "+91-9876500015",
+    "reported_count": 7,
+    "source": "citizen reports"
+  },
+  {
+    "id": "upi-001",
+    "entry_type": "upi",
+    "value": "fraud.ring1@ybl",
+    "reported_count": 52,
+    "source": "I4C demo watchlist"
+  },
+  {
+    "id": "upi-002",
+    "entry_type": "upi",
+    "value": "courierdesk@okaxis",
+    "reported_count": 22,
+    "source": "courier fraud reports"
+  },
+  {
+    "id": "upi-003",
+    "entry_type": "upi",
+    "value": "careerfast@oksbi",
+    "reported_count": 19,
+    "source": "employment fraud reports"
+  },
+  {
+    "id": "upi-004",
+    "entry_type": "upi",
+    "value": "hiringdesk@paytm",
+    "reported_count": 17,
+    "source": "employment fraud reports"
+  },
+  {
+    "id": "upi-005",
+    "entry_type": "upi",
+    "value": "support@icici",
+    "reported_count": 16,
+    "source": "banking abuse desk"
+  },
+  {
+    "id": "upi-006",
+    "entry_type": "upi",
+    "value": "verify@paytm",
+    "reported_count": 14,
+    "source": "utility fraud reports"
+  },
+  {
+    "id": "upi-007",
+    "entry_type": "upi",
+    "value": "privatefile@upi",
+    "reported_count": 13,
+    "source": "cyber police intake"
+  },
+  {
+    "id": "upi-008",
+    "entry_type": "upi",
+    "value": "loanrelease@upi",
+    "reported_count": 12,
+    "source": "loan fraud reports"
+  },
+  {
+    "id": "upi-009",
+    "entry_type": "upi",
+    "value": "quickrefund@oksbi",
+    "reported_count": 11,
+    "source": "banking abuse desk"
+  },
+  {
+    "id": "upi-010",
+    "entry_type": "upi",
+    "value": "rewarddesk@ybl",
+    "reported_count": 10,
+    "source": "citizen reports"
+  },
+  {
+    "id": "upi-011",
+    "entry_type": "upi",
+    "value": "kycfix@okhdfcbank",
+    "reported_count": 9,
+    "source": "identity fraud reports"
+  },
+  {
+    "id": "upi-012",
+    "entry_type": "upi",
+    "value": "investpro@upi",
+    "reported_count": 18,
+    "source": "investment fraud reports"
+  },
+  {
+    "id": "upi-013",
+    "entry_type": "upi",
+    "value": "customshelp@paytm",
+    "reported_count": 15,
+    "source": "courier fraud reports"
+  },
+  {
+    "id": "upi-014",
+    "entry_type": "upi",
+    "value": "joboffer@okaxis",
+    "reported_count": 8,
+    "source": "employment fraud reports"
+  },
+  {
+    "id": "upi-015",
+    "entry_type": "upi",
+    "value": "rbiassist@ybl",
+    "reported_count": 14,
+    "source": "digital arrest reports"
+  }
+]
